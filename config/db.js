@@ -2,7 +2,7 @@ let mongoose = require('mongoose');
 
 // ====
 
-mongoose.connect('mongodb://localhost/laricas');
+mongoose.connect('mongodb://admin:dsdsds@ds145039.mlab.com:45039/heroku_njxl57mx');
 
 // ====
 
