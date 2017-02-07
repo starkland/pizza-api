@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Laricas Pizzaria API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starkland/pizza-api.git"
+  },
+  "keywords": [
+    "laricas",
+    "pizzaria",
+    "nodejs",
+    "express",
+    "api"
+  ],
+  "author": "Thulio Philipe <thulioph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starkland/pizza-api/issues"
+  },
+  "homepage": "https://github.com/starkland/pizza-api#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "debug": "^2.6.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1",
+    "morgan": "^1.8.0"
+  }
+}
