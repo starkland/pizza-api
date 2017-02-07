@@ -3,12 +3,29 @@
 ## Tópicos
 
 - [Apresentação](#apresentação)
+- [Comandos](#comandos)
 - [Contribuindo](#contribuindo)
 - [License](#license)
 
 ## Apresentação
 
-Este projeto foi desenvolvido utilizando [Nodejs](https://nodejs.org), [Express](https://expressjs.com) e [MongoDB](https://www.mongodb.com).
+Este projeto foi desenvolvido utilizando [Nodejs](https://nodejs.org), [Express](https://expressjs.com) e [MongoDB](https://www.mongodb.com), atualmente encontra-se hospedado no [Heroku](https://www.heroku.com/) e utiliza do [mLab](https://www.mlab.com/) como cloud database.
+
+
+## Comandos
+
+Alguns comandos úteis para o console do Heroku:
+
+```
+$ heroku logs -t
+```
+logs da aplicação em tempo real
+
+```
+$ heroku apps:info <app-name> --remote production
+```
+algumas informações sobre o app
+
 
 ## Contribuindo
 
