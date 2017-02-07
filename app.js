@@ -15,6 +15,11 @@ app.use(cookieParser());
 
 // ====
 
+let pedido = require('./routes/pedido.js');
+app.use('/pedido', pedido);
+
+// ====
+
 // 404
 app.use(function(req, res, next) {
   let err = new Error('Não encontrado');
