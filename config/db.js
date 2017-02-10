@@ -38,3 +38,4 @@ process.on('SIGINT', function() {
 // ====
 
 require('../models/pedido.js');
+require('../models/usuario.js');

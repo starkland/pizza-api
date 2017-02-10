@@ -4,6 +4,7 @@
 
 - [Apresentação](#apresentação)
 - [Comandos](#comandos)
+- [Postman](#postman)
 - [Contribuindo](#contribuindo)
 - [License](#license)
 
@@ -25,6 +26,11 @@ logs da aplicação em tempo real
 $ heroku apps:info <app-name> --remote production
 ```
 algumas informações sobre o app
+
+
+## Postman
+
+Este projeto possui uma [collection no Postman](https://www.getpostman.com/collections/53a1679cad9055f8d76a), caso você não conheça o Postman, indico [este material](https://www.getpostman.com/docs/).
 
 
 ## Contribuindo

@@ -18,6 +18,9 @@ app.use(cookieParser());
 let pedido = require('./routes/pedido.js');
 app.use('/pedido', pedido);
 
+let usuarios = require('./routes/usuarios.js');
+app.use('/usuarios', usuarios);
+
 // ====
 
 // 404
