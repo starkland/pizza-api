@@ -1,45 +1,67 @@
 # Larica's Pizzaria
 
+
 ## Tópicos
 
 - [Apresentação](#apresentação)
-- [Comandos](#comandos)
+- [Setup](#setup)
+- [Heroku](#heroku)
 - [Postman](#postman)
 - [Contribuindo](#contribuindo)
 - [License](#license)
+
 
 ## Apresentação
 
 Este projeto foi desenvolvido utilizando [Nodejs](https://nodejs.org), [Express](https://expressjs.com) e [MongoDB](https://www.mongodb.com), atualmente encontra-se hospedado no [Heroku](https://www.heroku.com/) e utiliza do [mLab](https://www.mlab.com/) como cloud database.
 
 
-## Comandos
+## Setup
+
+Instale todas as dependências do projeto através do comando:
+
+```
+$ npm install --save
+```
+
+Para iniciar o servidor node, execute o comando:
+
+```
+$ npm run server
+```
+
+> O servidor irá rodar em `http://localhost:3000`
+
+
+## Heroku
 
 Alguns comandos úteis para o console do Heroku:
 
 ```
 $ heroku logs -t
 ```
-logs da aplicação em tempo real
+
+> Logs da aplicação em tempo real
+
 
 ```
 $ heroku apps:info <app-name> --remote production
 ```
-algumas informações sobre o app
+
+> Algumas informações sobre o app
 
 
 ## Postman
 
-Este projeto possui uma [collection no Postman](https://www.getpostman.com/collections/53a1679cad9055f8d76a), caso você não conheça o Postman, indico [este material](https://www.getpostman.com/docs/).
+Este projeto possui uma [collection no Postman](https://www.getpostman.com/collections/53a1679cad9055f8d76a), com ela você será capaz de saber **quais endpoinst** existem e **como funcionam**.
+Caso você não conheça o Postman, indico [este material](https://www.getpostman.com/docs/).
 
 
 ## Contribuindo
 
-[Abra uma Issue](https://github.com/starkland/pizza-api/issues/new) para reportar algum problema ou melhoria, e na sequência submeta um pull request.
-Quando necessário, utilize o [Codepen](http://codepen.io/) para demonstrar sua solução. Não se esqueça de incluir alguma descrição.
+[Abra uma issue](https://github.com/starkland/pizza-api/issues/new) para reportar algum problema ou melhoria, e na sequência submeta um pull request.
 
-
-> submetendo um pull request.
+> Submetendo um pull request.
 
 1. Fork o repositório no Github: `git clone https://github.com/starkland/pizza-api.git`
 1. Cria uma nova branch: `git checkout -b nome-da-melhoria`
